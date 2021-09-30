@@ -9,7 +9,7 @@ export interface petDTO {
 export interface petCreationDTO {
     name: string;
     owner: string;
-    picture: string;
+    pictureURL: string;
     dateOfBirth?: Date;
 }
 
