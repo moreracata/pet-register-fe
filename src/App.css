@@ -175,6 +175,12 @@
   
 }
 
+
+#root .index-option-img > img:hover{
+  background-image: url("https://dl3.glitter-graphics.net/pub/3200/3200833q843ro9i6h.gif");
+  
+}
+
 #root .index-option-img > img:hover{
   background-color: #ffc107;
   border: 3px dotted #ffc107;
