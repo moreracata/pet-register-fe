@@ -10,10 +10,10 @@ import { landingOptionDTO } from "./pet.model";
 
 export default function IndexPets(){
     const options: landingOptionDTO[] = [
-        { id:1, image: cat, tag: 'REGISTER A PET', url: '/newpet' }, 
-        { id:1, image: huella, tag: 'REGISTER A OWNER' }, 
-        { id:2,image: collar, tag: 'EDIT OWNER DETAILS' },
-        { id:3,image: rascador, tag: 'EDIT PET DETAILS' }
+        { id:1, image: cat, tag: 'NEW PET', url: '/newpet' }, 
+        { id:1, image: huella, tag: 'NEW OWNER' }, 
+        { id:2,image: collar, tag: 'OWNER DETAILS' },
+        { id:3,image: rascador, tag: 'PET DETAILS' }
     ]
 
 

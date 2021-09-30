@@ -42,10 +42,12 @@ export default function ImageField(props: imageFieldProps) {
             </div>
             {imageBase64 ?
                 <div>
-                    <div style={divStyle}>
-                        <img style={imgStyle} src={imageBase64} alt="selected" />
+                    <div className="index-option" style={divStyle}>
+                    <span className="index-option-img"> 
+                        <img className="index-option-img" style={imgStyle} src={imageBase64} alt="selected" />
+                    </span>
                     </div>
-                </div> : null}
+                </div> : null} 
             {imageURL ?
                 <div>
                     <div style={divStyle}>

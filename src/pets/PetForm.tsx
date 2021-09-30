@@ -23,6 +23,11 @@ export default function PetForm(props: PetFormProps) {
             {(formikProps) => (
                 <Form>
                    <TextField displayName="Name" field="name" />
+                   <DateField displayName="Date of Birth" field="dateOfBirth" />
+                    <ImageField displayName="Picture" field="picture" 
+                    imageURL={props.model.pictureURL} />
+                    
+
                    <CrazyButton type="submit">
                      SEND
                   </CrazyButton>

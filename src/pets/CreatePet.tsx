@@ -3,7 +3,7 @@ import PetForm  from "./PetForm";
 
 export default function IndexPets(){
     const model :petCreationDTO = 
-        { name:'', owner: '', picture: '' }
+        { name:'', owner: '', pictureURL: '' }
     
 
 

@@ -13,10 +13,11 @@ export default function Menu(){
             <ul className="navbar-nav">
              
               <li className="nav-item dropdown">
-                <NavLink className="nav-link dropdown-toggle" to="/pets" id="navbardrop" data-toggle="dropdown">
+                <NavLink className="nav-link dropdown-toggle" to="#" id="navbardrop" data-toggle="dropdown">
                   PETS
                 </NavLink>
                 <div className="dropdown-menu">
+                  <NavLink className="dropdown-item" to="/pets">OPTIONS</NavLink>
                   <NavLink className="dropdown-item" to="/newpet">REGISTER</NavLink>
                   <NavLink className="dropdown-item" to="#">EDITION</NavLink>
                   <NavLink className="dropdown-item" to="#">SEARCH</NavLink>
@@ -27,7 +28,7 @@ export default function Menu(){
                   SERVICES
                 </NavLink>
                 <div className="dropdown-menu">
-                  <NavLink className="dropdown-item" to="#">VETERINARIAN</NavLink>
+                  <NavLink className="dropdown-item" to="#">VETERINAR</NavLink>
                   <NavLink className="dropdown-item" to="#">GROMMING</NavLink>
                   <NavLink className="dropdown-item" to="#">SEARCH</NavLink>
                 </div>

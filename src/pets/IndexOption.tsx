@@ -10,8 +10,8 @@ export default function IndexOption(props: indexOptionProps){
             <span className="index-option-img"> 
               <img src={props.option.image}/>
             </span>
-            <CrazyButton url=""
-            type="button">
+            <CrazyButton url={props.option.url}
+            type="submit">
             {props.option.tag}
             </CrazyButton>
         </div></div>
