@@ -110,6 +110,10 @@
   background-image: url("./img/huellas-patron.png");
 }
 
+#root > .container  >  .custon-container:hover{
+  background-color: #ef476f;
+}
+
 
 #root > .container  >  .custon-container > .form-container {
   background-color: #ffffffde;
