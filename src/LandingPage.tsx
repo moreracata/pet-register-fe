@@ -4,8 +4,12 @@ export default function LandingPage(){
 
     return (
         <>
-        <h3>pet shop</h3>
-           
+        
+        <div className="form-container"> 
+            <h1>PET SHOP</h1> 
+            
+        
+            </div>
         </>
 
     )
