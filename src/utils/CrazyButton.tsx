@@ -1,4 +1,4 @@
-import './CrazyButton.css';
+import './crazyButton.css';
 export default function CrazyButton(props: crazyButtonProps){
       
     return (
@@ -6,7 +6,7 @@ export default function CrazyButton(props: crazyButtonProps){
     <div className="wrapper">
             <a className="crazy-button" 
                type={props.type} 
-               href={ props.url  ? props.url : "/" }
+               href={ props.url  ? props.url : "" }
                onClick={props.onClick}
       
             >{props.children}</a>

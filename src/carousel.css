@@ -1,0 +1,30 @@
+
+ .custom-carousel-options{    
+  display:         flex;
+  flex-wrap:       wrap;
+  justify-content: center;
+  padding: 75px 30px;
+}
+ 
+ .center .carousel-option-img  {
+  z-index: 2;
+}
+
+
+.custom-carousel-options .carousel-option-img{
+  width: 100px !important;
+}
+
+.custom-carousel-options .carousel-option-img > img{
+  width: 100px !important;
+}
+
+.custom-carousel-options .carousel-option-img{
+  width: 100px !important;
+}
+.carousel-option{
+  margin: -50px!Important;
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
