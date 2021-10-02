@@ -8,6 +8,8 @@
  
  .center .carousel-option-img  {
   z-index: 2;
+  background-image: url("https://dl3.glitter-graphics.net/pub/3200/3200833q843ro9i6h.gif");
+  width: 40%; 
 }
 
 
@@ -27,4 +29,33 @@
   float: left;
   width: 33.33%;
   padding: 5px;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -67px;
+  padding: 16px;
+  color: #ef476f;
+  font-weight: bolder;
+  font-size: 61px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  text-decoration: none;
+    color: #ef476f;
 }
