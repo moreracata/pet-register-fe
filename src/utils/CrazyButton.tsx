@@ -4,12 +4,11 @@ export default function CrazyButton(props: crazyButtonProps){
     return (
     <>
     <div className="wrapper">
-            <a className="crazy-button" 
+            <button className="crazy-button" 
                type={props.type} 
-               href={ props.url  ? props.url : "" }
                onClick={props.onClick}
       
-            >{props.children}</a>
+            >{props.children}</button>
     </div>
 
         <svg className="custom-btn"  width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">

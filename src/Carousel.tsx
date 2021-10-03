@@ -44,25 +44,23 @@ export default function Carousel(props: carouselProps){
     });
 
     const moveToLeft = () => {
-        console.log(current)
         let left = current[0].id
         let right = current[2].id
-        if(right != options.length-1){
-           var newCurrent = [options[left+1],options[left+2],options[left+3]]
+        
+            if( current[0].id != 0){
+           var newCurrent = [options[right-3],options[right-2],options[right-1]]
            setCurrent(newCurrent)
-           console.log(newCurrent)
         }
     }
 
     const moveToRight = () => {
-        console.log(current)
+        
         let left = current[0].id
         let right = current[2].id
        
-        if( current[0].id != 0){
-           var newCurrent = [options[right-3],options[right-2],options[right-1]]
+        if(right != options.length-1){
+            var newCurrent = [options[left+1],options[left+2],options[left+3]]
            setCurrent(newCurrent)
-            console.log(newCurrent)
         }
     }
 
