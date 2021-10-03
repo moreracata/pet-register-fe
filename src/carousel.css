@@ -6,10 +6,33 @@
   padding: 75px 30px;
 }
  
+.center {
+
+  width: 50% !important; 
+}
+
+.left, .right {
+  width: 25% !important; 
+  height: 35%;
+  opacity: 0.6;
+}
+
+.left:hover, .right:hover {
+
+  background-image: none!important;
+  opacity: 1;
+}
+
+.left > img:hover, .right > img:hover {
+
+  background-image: none!important;
+  opacity: 1;
+}
+
+
  .center .carousel-option-img  {
   z-index: 2;
   background-image: url("https://dl3.glitter-graphics.net/pub/3200/3200833q843ro9i6h.gif");
-  width: 40%; 
 }
 
 
@@ -27,7 +50,7 @@
 .carousel-option{
   margin: -50px!Important;
   float: left;
-  width: 33.33%;
+ 
   padding: 5px;
 }
 

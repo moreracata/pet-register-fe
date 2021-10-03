@@ -18,6 +18,8 @@
     text-align: center;
     background: var(--color);
     color: var(--bg);
+  
+    border: none;
     
     padding: 1.18em 1.32em 1.03em;
     line-height: 1;
