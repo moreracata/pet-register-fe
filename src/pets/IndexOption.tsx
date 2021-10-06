@@ -1,5 +1,5 @@
 
-import CrazyButton from '../utils/crazyButton';
+import CrazyButton from '../utils/CrazyButton';
 import { landingOptionDTO } from "./pet.model";
 
 export default function IndexOption(props: indexOptionProps){
