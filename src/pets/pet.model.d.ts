@@ -1,9 +1,10 @@
 export interface petDTO {
     id: number;
     name: string;
+    dateOfBirth?: Date;
     onwnerid: string;
     picture: string;
-    age: string
+    age: int
 }
 
 export interface petCreationDTO {
@@ -20,3 +21,21 @@ export interface landingOptionDTO {
     url?: string
 }
 
+
+export interface ownerDTO {
+    id: number;
+    identificationNumber: string;
+    name: string;
+    picture: string;
+}
+
+
+export interface ownerListDTO {
+    petList:ownerDTO[]
+ 
+}
+
+export interface petListDTO {
+    petList:petDTO[]
+ 
+}

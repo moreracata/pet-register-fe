@@ -1,13 +1,6 @@
 import { Link } from "react-router-dom";
 import IndexOption from './IndexOption';
-import cat from '../img/gato.png';
-import collar from '../img/collar.png';
-import rascador from '../img/rascador.png';
-import huella from '../img/huella.png';
-import pez from '../img/pez.png';
-import mouse2 from '../img/mouse2.png';
-import mouse from '../img/mouse.png';
-import gato2 from '../img/gato2.png';
+
 
 
 import { landingOptionDTO } from "./pet.model";
@@ -15,17 +8,17 @@ import { landingOptionDTO } from "./pet.model";
 
 export default function IndexPets(){
     const options: landingOptionDTO[] = [
-        { id:1, image: cat, tag: 'REGISTER A PET', url: '/newpet' }, 
-        { id:2, image: huella, tag: 'REGISTER A OWNER' }, 
-        { id:3,image: collar, tag: 'EDIT OWNER DETAILS' },
-        { id:4,image: rascador, tag: 'EDIT PET DETAILS' }
+        { id:1, image:  'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'REGISTER A PET', url: '/newpet' }, 
+        { id:2, image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'REGISTER A OWNER' }, 
+        { id:3,image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'EDIT OWNER DETAILS' },
+        { id:4,image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'EDIT PET DETAILS' }
     ]
 
     const options2: landingOptionDTO[] = [
-        { id:5, image: pez, tag: 'OPTION', url: '/newpet' }, 
-        { id:6, image: mouse, tag: 'OPTION' }, 
-        { id:7,image: mouse2, tag: 'OPTION' },
-        { id:8,image: gato2, tag: 'OPTION' }
+        { id:5, image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'OPTION', url: '/newpet' }, 
+        { id:6, image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'OPTION' }, 
+        { id:7,image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'OPTION' },
+        { id:8,image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'OPTION' }
     ]
 
 
