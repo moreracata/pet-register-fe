@@ -18,8 +18,8 @@ export default function Menu(){
                 </NavLink>
                 <div className="dropdown-menu">
                   <NavLink className="dropdown-item" to="/pets">OPTIONS</NavLink>
-                  <NavLink className="dropdown-item" to="/newpet">REGISTER</NavLink>
-                  <NavLink className="dropdown-item" to="#">EDITION</NavLink>
+                  <NavLink className="dropdown-item" to="/PetList">REGISTER</NavLink>
+                  <NavLink className="dropdown-item" to="#">OPTION</NavLink>
                   <NavLink className="dropdown-item" to="#">SEARCH</NavLink>
                 </div>
               </li>
