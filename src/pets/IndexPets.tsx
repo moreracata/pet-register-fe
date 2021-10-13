@@ -1,39 +1,24 @@
 import { Link } from "react-router-dom";
-import IndexOption from './IndexOption';
-
-
-
-import { landingOptionDTO } from "./pet.model";
+import IndexOption from '../utils/IndexOption';
+import {landingOptionDTO} from '../utils/utils.model';
 
 
 export default function IndexPets(){
     const options: landingOptionDTO[] = [
-        { id:1, image:  'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'REGISTER A PET', url: '/newpet' }, 
-        { id:2, image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'REGISTER A OWNER' }, 
-        { id:3,image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'EDIT OWNER DETAILS' },
-        { id:4,image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'EDIT PET DETAILS' }
+        { id:1, image:  'https://cdn-icons-png.flaticon.com/512/4213/4213659.png', tag: 'PETS', url: '/petList' }, 
+        { id:2, image: 'https://cdn-icons-png.flaticon.com/512/4213/4213672.png', tag: 'OWNERS' , url: '/ownerList' }, 
+        { id:3, image: 'https://cdn-icons-png.flaticon.com/512/4213/4213678.png', tag: 'SPECIES', url: '/ownerList'  }
     ]
-
-    const options2: landingOptionDTO[] = [
-        { id:5, image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'OPTION', url: '/newpet' }, 
-        { id:6, image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'OPTION' }, 
-        { id:7,image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'OPTION' },
-        { id:8,image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'OPTION' }
-    ]
-
 
     return (
         <> 
         <div className="row  form-container">  
             <h1>Pets Options </h1>
-            <div className="row ">   
+            <div className="row">   
                 {options.map(option =>
-                <IndexOption option={option} key={option.id} />)}
+                     <IndexOption option={option} key={option.id} />)}
             </div>  
-            <div className="row ">   
-                {options2.map(option =>
-                <IndexOption option={option} key={option.id} />)}
-            </div>  
+            
             </div>   
         </>
     )

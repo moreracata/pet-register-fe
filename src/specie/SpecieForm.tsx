@@ -5,10 +5,9 @@ import DateField from '../forms/DateField';
 import ImageField from '../forms/ImageField';
 import CrazyButton from '../utils/CrazyButton';
 import * as Yup from 'yup';
-import { petCreationDTO } from './pet.model.d';
+import { specieCreationDTO } from './specie.model';
 
-
-export default function PetForm(props: PetFormProps) {
+export default function SpecieForm(props: SpecieFormProps) {
     return (
         <Formik
             initialValues={props.model}
@@ -22,8 +21,7 @@ export default function PetForm(props: PetFormProps) {
                 <Form>
                    <TextField displayName="Name" field="name" />
                    <DateField displayName="Date of Birth" field="dateOfBirth" />
-                    <ImageField displayName="Picture" field="picture" 
-                    imageURL={props.model.pictureURL} />
+                  
                     
 
                    <CrazyButton type="submit">
@@ -35,7 +33,7 @@ export default function PetForm(props: PetFormProps) {
     )
 }
 
-interface PetFormProps {
-    model: petCreationDTO;
-    onSubmit(values: petCreationDTO, action: FormikHelpers<petCreationDTO>): void;
+interface SpecieFormProps {
+    model: specieCreationDTO;
+    onSubmit(values: specieCreationDTO, action: FormikHelpers<specieCreationDTO>): void;
 }
