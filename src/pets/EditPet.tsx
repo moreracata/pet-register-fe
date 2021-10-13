@@ -1,9 +1,9 @@
 import { petCreationDTO } from "./pet.model.d";
 import PetForm  from "./PetForm";
 
-export default function CreatePet(){
+export default function EditPet(){
     const model :petCreationDTO = 
-        { name:'', owner: '', pictureURL: '' }
+        { name:'test', owner: '', pictureURL: '' }
     
 
 

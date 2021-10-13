@@ -1,7 +1,5 @@
-import { petDTO } from "./pet.model";
 
-
-export default function PetData(props: PetDataProps){
+export default function ListOptionData(props: ListOptionDataProps){
     
     
     return (
@@ -9,9 +7,9 @@ export default function PetData(props: PetDataProps){
            
                 <tr>
                     <td>
-                        <img src={props.petData.picture } alt=""/>
-                        <a href="#" className="user-link">{props.petData.name }</a>
-                        <span className="user-subhead">Age:{props.petData.age } </span>
+                        <img src={props.listObject.picture } alt=""/>
+                        <a href="#" className="user-link">{props.listObject.name }</a>
+                        <span className="user-subhead">Age:{props.listObject.age } </span>
                     </td>
                     <td>
                         2013/08/08
@@ -50,6 +48,6 @@ export default function PetData(props: PetDataProps){
 
 }
 
-interface PetDataProps {
-    petData: petDTO;
+interface ListOptionDataProps {
+    listObject: any;
 }

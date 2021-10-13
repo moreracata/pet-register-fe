@@ -3,11 +3,15 @@ import CreatePet from "./pets/CreatePet";
 import LandingPage from "./LandingPage";
 import PetList from "./pets/PetList";
 
+import OwnerList from "./owners/OwnerList";
+
+
+
 import RedirectToLandingPage from './utils/RedirectToLandingPage';
 
 const routes = [
     {path: '/pets', component: IndexPets, exact: true},
-    {path: '/PetList', component: PetList, exact: true},
+    {path: '/petList', component: PetList, exact: true},
     {path: '/newpet', component: CreatePet, exact: true},
     
 
