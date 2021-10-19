@@ -20,10 +20,6 @@ export default function SpecieForm(props: SpecieFormProps) {
             {(formikProps) => (
                 <Form>
                    <TextField displayName="Name" field="name" />
-                   <DateField displayName="Date of Birth" field="dateOfBirth" />
-                  
-                    
-
                    <CrazyButton type="submit">
                      SEND
                   </CrazyButton>

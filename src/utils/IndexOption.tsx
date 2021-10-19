@@ -1,8 +1,13 @@
 
 import CrazyButton from '../utils/CrazyButton';
 import { landingOptionDTO } from "./utils.model";
+import { useHistory } from 'react-router-dom';
 
 export default function IndexOption(props: indexOptionProps){
+    const history = useHistory();
+
+
+
     return (
         <>
         <div className="col"> 
@@ -12,7 +17,7 @@ export default function IndexOption(props: indexOptionProps){
             </span>
             <CrazyButton 
             url ={ props.option.url}
-                  type="submit">
+                  type="button">
             {props.option.tag}
             </CrazyButton>
         </div></div>
