@@ -1,5 +1,5 @@
 import ListOptionData  from "./ListOptionData";
-import './List.css';
+import './css/List.css';
 
 export default function List(props: ListProps){
    

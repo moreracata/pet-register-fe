@@ -6,16 +6,16 @@ import { landingOptionDTO } from "../utils/utils.model";
 export default function IndexPets(){
     const options: landingOptionDTO[] = [
         { id:1, image:  'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'REGISTER A PET', url: '/newpet' }, 
-        { id:2, image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'REGISTER A OWNER' }, 
-        { id:3,image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'EDIT OWNER DETAILS' },
-        { id:4,image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'EDIT PET DETAILS' }
+        { id:2, image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'REGISTER A OWNER', url: '/newpet'  }, 
+        { id:3,image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'EDIT OWNER DETAILS' , url: '/newpet' },
+        { id:4,image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'EDIT PET DETAILS' , url: '/newpet' }
     ]
 
     const options2: landingOptionDTO[] = [
         { id:5, image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'OPTION', url: '/newpet' }, 
-        { id:6, image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'OPTION' }, 
-        { id:7,image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'OPTION' },
-        { id:8,image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'OPTION' }
+        { id:6, image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'OPTION' , url: '/newpet' }, 
+        { id:7,image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'OPTION' , url: '/newpet' },
+        { id:8,image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'OPTION' , url: '/newpet' }
     ]
 
 

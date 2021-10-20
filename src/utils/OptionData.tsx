@@ -18,7 +18,7 @@ export default function OptionData(props: OptionDataProps){
                     </td>
                     <td className="text-center">
                         <span className="label label-default">Cat</span>
-                    </td>
+                    </td>  
                     <td>
                     <span className="label label-default">Cata</span>
                     </td>

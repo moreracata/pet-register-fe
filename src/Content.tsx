@@ -11,15 +11,15 @@ configureValidations();
 
 function Content() {
 
-    const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(false);
 
-    useEffect(() => {
+ /*   useEffect(() => {
         const timerId = setInterval(() => {
         setLoading(false)
         }, 10000);
 
         return () => clearInterval(timerId);
-    })  
+    })  */
   
   return (
     <div className="container">

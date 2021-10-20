@@ -1,4 +1,4 @@
-import './crazyButton.css';
+import './css/crazyButton.css';
 export default function CrazyButton(props: crazyButtonProps){
       
     return (

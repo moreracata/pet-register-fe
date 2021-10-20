@@ -2,7 +2,7 @@ export interface landingOptionDTO {
     id:int;
     tag: string;
     image: string;
-    url?: string
+    url: string
 }
 
 export interface listObjectDTO {

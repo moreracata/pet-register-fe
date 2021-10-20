@@ -18,8 +18,9 @@ export default function CreateSpecie(){
                 history.push('/species');
             }
             catch (error) {
-                if (error && error.response){
-                    setErrors(error.response.data);
+                if (error /*&& error.response*/){
+                    console.log("Error")
+                   // setErrors(error.response.data);
                 }
             }
         }
