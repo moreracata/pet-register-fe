@@ -1,4 +1,4 @@
-import Carousel  from "./Carousel/Carousel";
+import MainOptions  from "./Main/MainOptions";
 
 export default function LandingPage(){
 
@@ -6,9 +6,8 @@ export default function LandingPage(){
         <>
         
         <div className="form-container"> 
-            <h1>PET REGISTER</h1> 
-            
-            <Carousel/>
+            <h1>PET REGISTER OPTIONS</h1> 
+                <MainOptions/>
             </div>
         </>
 

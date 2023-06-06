@@ -3,7 +3,7 @@ import IndexOption from '../utils/IndexOption';
 import { landingOptionDTO } from "../utils/utils.model";
 
 
-export default function IndexPets(){
+export default function IndexOwner(){
     const options: landingOptionDTO[] = [
         { id:1, image:  'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'REGISTER A PET', url: '/newpet' }, 
         { id:2, image: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png', tag: 'REGISTER A OWNER', url: '/newpet'  }, 
