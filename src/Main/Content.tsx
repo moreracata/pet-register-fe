@@ -1,10 +1,10 @@
-import './App.css';
+import './Content.css';
 import { useState, useEffect } from "react";
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import routes from './route-config'
-import configureValidations from './Validations';
-import Spinner from './utils/Spinner';
+import routes from '../route-config'
+import configureValidations from '../Validations';
+import Spinner from '../utils/Spinner';
 
 
 configureValidations();

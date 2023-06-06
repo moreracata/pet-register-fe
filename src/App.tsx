@@ -1,7 +1,7 @@
-import './App.css';
+import './Main/Content.css';
 import Menu from './Menu';
-import Content from './Content';
-import Footer from './Footer';
+import Content from './Main/Content';
+import Footer from './Main/Footer';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import routes from './route-config'
 import configureValidations from './Validations';

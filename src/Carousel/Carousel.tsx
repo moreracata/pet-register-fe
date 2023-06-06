@@ -1,18 +1,18 @@
 import CarouselOption  from "./CarouselOption";
-import cat from './img/gato.png';
-import collar from './img/collar.png';
-import huella from './img/huella.png';
+import cat from '../img/gato.png';
+import collar from '../img/collar.png';
+import huella from '../img/huella.png';
 
-import rascador from './img/rascador.png';
+import rascador from '../img/rascador.png';
 
-import pez from './img/pez.png';
-import mouse2 from './img/mouse2.png';
-import mouse from './img/mouse.png';
-import gato2 from './img/gato2.png';
-import './carousel.css';
+import pez from '../img/pez.png';
+import gato2 from '../img/gato2.png';
+
+import './Style/Carousel.css';
+
 import { useEffect, useState } from 'react';
 
-import { landingOptionDTO } from "./landingPage.model";
+import { CarouselOptionDTO } from "./Models/CarouselOptionDTO"
 
 export default function Carousel(props: carouselProps){
 
@@ -23,7 +23,7 @@ export default function Carousel(props: carouselProps){
         );
 
 
-    const options: landingOptionDTO[] = [
+    const options: CarouselOptionDTO[] = [
         { id:0, image: 'https://cdn-icons-png.flaticon.com/512/4213/4213714.png', tag: 'OPCION0'},
         { id:1, image: cat, tag: 'OPCION1'}, 
         { id:2, image: huella, tag: 'OPCION2' }, 
@@ -94,5 +94,5 @@ export default function Carousel(props: carouselProps){
  
 
 interface carouselProps{
-    options?: landingOptionDTO[];
+    options?: CarouselOptionDTO[];
 }
