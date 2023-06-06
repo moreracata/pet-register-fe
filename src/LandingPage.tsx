@@ -6,7 +6,7 @@ export default function LandingPage(){
         <>
         
         <div className="form-container"> 
-            <h1>PET SHOP</h1> 
+            <h1>PET REGISTER</h1> 
             
             <Carousel/>
             </div>

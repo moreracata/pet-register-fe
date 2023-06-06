@@ -1,13 +1,4 @@
 import CarouselOption  from "./CarouselOption";
-import cat from '../img/gato.png';
-import collar from '../img/collar.png';
-import huella from '../img/huella.png';
-
-import rascador from '../img/rascador.png';
-
-import pez from '../img/pez.png';
-import gato2 from '../img/gato2.png';
-
 import './Style/Carousel.css';
 
 import { useEffect, useState } from 'react';
@@ -16,27 +7,29 @@ import { CarouselOptionDTO } from "./Models/CarouselOptionDTO"
 
 export default function Carousel(props: carouselProps){
 
-    const [current, setCurrent] = useState([ 
-         { id:1, image: cat, tag: 'OPCION1'}, 
-         { id:2, image: huella, tag: 'OPCION2' }, 
-         { id:3, image: collar, tag: 'OPCION3' }]
+    const [current, setCurrent] = useState(
+            [ 
+                { id:1, image: 'https://cdn-icons-png.flaticon.com/512/4193/4193256.png', tag: 'OPCION1'}, 
+                { id:2, image: 'https://cdn-icons-png.flaticon.com/512/4193/4193260.png', tag: 'OPCION2' }, 
+                { id:3, image: 'https://cdn-icons-png.flaticon.com/512/4193/4193312.png', tag: 'OPCION3' }
+            ]
         );
 
 
     const options: CarouselOptionDTO[] = [
-        { id:0, image: 'https://cdn-icons-png.flaticon.com/512/4213/4213714.png', tag: 'OPCION0'},
-        { id:1, image: cat, tag: 'OPCION1'}, 
-        { id:2, image: huella, tag: 'OPCION2' }, 
-        { id:3, image: rascador, tag: 'OPCION3' },
-        { id:4, image: pez, tag: 'OPCION4'}, 
-        { id:5, image: gato2, tag: 'OPCION5' }, 
-        { id:6, image: collar, tag: 'OPCION6' },
-        { id:7, image: cat, tag: 'OPCION7'}, 
-        { id:8, image: huella, tag: 'OPCION8' }, 
-        { id:9, image: collar, tag: 'OPCION9' },
-        { id:10, image: cat, tag: 'OPCION10'}, 
-        { id:11, image: huella, tag: 'OPCION11' }, 
-        { id:12, image: collar, tag: 'OPCION12' },
+        { id:0, image: 'https://cdn-icons-png.flaticon.com/512/4193/4193375.png', tag: 'OPCION0'},
+        { id:1, image: 'https://cdn-icons-png.flaticon.com/512/4193/4193256.png', tag: 'OPCION1'}, 
+        { id:2, image: 'https://cdn-icons-png.flaticon.com/512/4193/4193260.png', tag: 'OPCION2' }, 
+        { id:3, image: 'https://cdn-icons-png.flaticon.com/512/4193/4193312.png', tag: 'OPCION3' },
+        { id:4, image: 'https://cdn-icons-png.flaticon.com/512/4193/4193308.png', tag: 'OPCION4'}, 
+        { id:5, image: 'https://cdn-icons-png.flaticon.com/512/4193/4193288.png', tag: 'OPCION5' }, 
+        { id:6, image: 'https://cdn-icons-png.flaticon.com/512/4193/4193354.png', tag: 'OPCION6' },
+        { id:7, image: 'https://cdn-icons-png.flaticon.com/512/4193/4193310.png', tag: 'OPCION7'}, 
+        { id:8, image: 'https://cdn-icons-png.flaticon.com/512/4193/4193251.png', tag: 'OPCION8' }, 
+        { id:9, image: 'https://cdn-icons-png.flaticon.com/512/4193/4193243.png', tag: 'OPCION9' },
+        { id:10, image: 'https://cdn-icons-png.flaticon.com/512/4193/4193285.png', tag: 'OPCION10'}, 
+        { id:11, image: 'https://cdn-icons-png.flaticon.com/512/4193/4193351.png', tag: 'OPCION11' }, 
+        { id:12, image: 'https://cdn-icons-png.flaticon.com/512/4193/4193347.png', tag: 'OPCION12' },
         
     ]
 
@@ -64,7 +57,7 @@ export default function Carousel(props: carouselProps){
         }
     }
 
-    const onclickOption = () => {console.log("Cata")}
+    const onclickOption = () => {console.log("'../img/gato.png'a")}
     
     return (
         <> 
