@@ -1,5 +1,5 @@
 import './Main/Style/Content.css';
-import Menu from './Menu';
+import Menu from './Main/Menu';
 import Content from './Main/Content';
 import Footer from './Main/Footer';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';

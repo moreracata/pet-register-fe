@@ -1,5 +1,4 @@
 import MainOptions from "./Main/Index";
-import MainPage from "./MainPage";
 
 import OwnerIndex from "./Owners/IndexOwner";
 import SpecieIndex from "./Specie/IndexSpecie";
@@ -23,7 +22,7 @@ const routes = [
     {path: '/OwnerList', component: OwnerList, exact: true},
     {path: '/SpecieList', component: SpecieList, exact: true},
 
-    {path: '/', component: MainPage, exact: true},
+    {path: '/', component: MainOptions, exact: true},
     {path: '*', component: RedirectToMainPage}
     
 ];

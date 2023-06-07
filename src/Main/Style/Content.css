@@ -63,15 +63,8 @@
 }
 
 #root > .container >  .custon-container > .form-container h1{
-  margin-bottom: 30px;
+  margin-bottom: 20%;
   text-align: center;
-}
-
-
-
-#root > .container  >  .custon-container > .form-container > .row {
-  padding: 25% 0%;
- 
 }
 
 #root > .container >  .custon-container > .form-container label{
