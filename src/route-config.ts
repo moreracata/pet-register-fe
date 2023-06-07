@@ -1,22 +1,27 @@
 import MainOptions from "./Main/Index";
-import CreatePet from "./Pets/Index";
 import MainPage from "./MainPage";
+
+import OwnerIndex from "./Owners/IndexOwner";
+import SpecieIndex from "./Specie/IndexSpecie";
+import PetIndex from './Pets/IndexPets';
+
 import PetList from "./Pets/PetList";
-
-
-
 import OwnerList from "./Owners/OwnerList";
 import SpecieList from "./Specie/SpecieList";
+
+
 import RedirectToMainPage from './Utils/RedirectToMainPage';
 
 const routes = [
-    {path: '/pets', component: MainOptions, exact: true},
-    {path: '/petList', component: PetList, exact: true},
-    {path: '/newpet', component: CreatePet, exact: true},
+    {path: '/Index', component: MainOptions, exact: true},
 
-    {path: '/ownerList', component: OwnerList, exact: true},
-    
-    {path: '/specieList', component: SpecieList, exact: true},
+    {path: '/Owner', component: OwnerIndex, exact: true},
+    {path: '/Specie', component: SpecieIndex, exact: true},
+    {path: '/Pet', component: PetIndex, exact: true},
+
+    {path: '/PetList', component: PetList, exact: true},
+    {path: '/OwnerList', component: OwnerList, exact: true},
+    {path: '/SpecieList', component: SpecieList, exact: true},
 
     {path: '/', component: MainPage, exact: true},
     {path: '*', component: RedirectToMainPage}

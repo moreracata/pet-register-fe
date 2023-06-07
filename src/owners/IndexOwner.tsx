@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 
 
-export default function IndexPets(){
+export default function IndexOwner(){
   
     return (
         <> 
