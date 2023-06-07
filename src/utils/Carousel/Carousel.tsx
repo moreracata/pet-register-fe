@@ -61,25 +61,23 @@ export default function Carousel(props: carouselProps){
     
     return (
         <> 
-            <div className=" form-container">  
-                <div className="custom-carousel">  
-                    <div className="row"> 
-                        <div className="col-1"> 
-                            <a className="arrow prev" onClick={moveToLeft}>&#10094;</a>
-                        </div>
-                        <div className="col-10"> 
-                                <div className="custom-carousel-options row">  
-                                    <CarouselOption custoClassName="left opt " onClick={onclickOption} option={current[0]} key={current[0].id} />
-                                    <CarouselOption custoClassName="center opt" onClick={onclickOption} option={current[1]} key={current[1].id} />
-                                    <CarouselOption custoClassName="right opt" onClick={onclickOption} option={current[2]} key={current[2].id} />
-                                </div>
+            <div className="custom-carousel">  
+                <div className="row"> 
+                    <div className="col-1"> 
+                        <a className="arrow prev" onClick={moveToLeft}>&#10094;</a>
+                    </div>
+                    <div className="col-10"> 
+                            <div className="custom-carousel-options row">  
+                                <CarouselOption custoClassName="left opt " onClick={onclickOption} option={current[0]} key={current[0].id} />
+                                <CarouselOption custoClassName="center opt" onClick={onclickOption} option={current[1]} key={current[1].id} />
+                                <CarouselOption custoClassName="right opt" onClick={onclickOption} option={current[2]} key={current[2].id} />
                             </div>
-                        <div className="opt col-1"> 
-                            <a className="arrow next" onClick={moveToRight}>&#10095;</a>
                         </div>
+                    <div className="opt col-1"> 
+                        <a className="arrow next" onClick={moveToRight}>&#10095;</a>
                     </div>
                 </div>
-            </div>
+            </div>   
         </>
     )
         

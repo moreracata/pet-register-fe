@@ -1,15 +1,12 @@
 import './Style/Content.css';
 import { useState, useEffect } from "react";
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import routes from '../route-config'
 import configureValidations from '../Validations';
 
 configureValidations();
 
 function Content() {
-
-    const [loading, setLoading] = useState(false);
-
     return (
         <div className="container">
             <div className="custon-container">
