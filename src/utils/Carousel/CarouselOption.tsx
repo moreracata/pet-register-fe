@@ -5,8 +5,8 @@ export default function CarouselOption(props: carouselOptionProps){
       
     return (
         <>
-            <div className={"index-option-img carousel-option row "+  props.custoClassName}>             
-                <img  className="carousel-option-img col-12" src={ props.option.image}/>     
+            <div className={"carousel-option "+  props.custoClassName}>             
+                <img  src={ props.option.image}/>     
             </div>
         </>
     )

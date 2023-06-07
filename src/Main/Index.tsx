@@ -9,7 +9,7 @@ export default function MainOptions(){
         { id:3, image: 'https://cdn-icons-png.flaticon.com/512/2259/2259486.png', tag: 'SPECIES', url: '/Specie'  },
         { id:4, image: 'https://cdn-icons-png.flaticon.com/512/5389/5389413.png', tag: 'STORE', url: '/Store' }, 
         { id:5, image: 'https://cdn-icons-png.flaticon.com/512/1292/1292651.png', tag: 'DOCTOR' , url: '/Doctor' }, 
-        { id:6, image: 'https://cdn-icons-png.flaticon.com/512/7965/7965936.png', tag: 'GROMMING', url: '/Gromming'  }
+        { id:6, image: 'https://cdn-icons-png.flaticon.com/512/7965/7965936.png', tag: 'GROOMING', url: '/Gromming'  }
     ]
 
     return (
