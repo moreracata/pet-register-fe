@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import TextField from '../forms/TextField';
 import DateField from '../forms/DateField';
 import ImageField from '../forms/ImageField';
-import CrazyButton from '../Utils/CrazyButton';
+import PinkBtn from '../Utils/PinkBtn/PinkBtn';
 import * as Yup from 'yup';
 import { ownerCreationDTO } from './Models/OwnerDTO';
 
@@ -24,9 +24,9 @@ export default function OwnerForm(props: OwnerFormProps) {
                   
                     
 
-                   <CrazyButton type="submit">
+                   <PinkBtn type="submit">
                      SEND
-                  </CrazyButton>
+                  </PinkBtn>
                 </Form>
             )}
         </Formik>

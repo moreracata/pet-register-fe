@@ -1,5 +1,5 @@
-import './css/crazyButton.css';
-export default function CrazyButton(props: crazyButtonProps){
+import './Style/PinkBtn.css';
+export default function PinkBtn(props: PinkBtnProps){
       
     return (
     <>
@@ -26,7 +26,7 @@ export default function CrazyButton(props: crazyButtonProps){
 
 
 
-interface crazyButtonProps{
+interface PinkBtnProps{
     children: React.ReactNode;
     onClick?(): void;
     type: "button" | "submit";
@@ -35,8 +35,8 @@ interface crazyButtonProps{
     
 }
   
-  CrazyButton.defaultProps = {
+PinkBtn.defaultProps = {
     type: "button",
     disabled: false,
     url:"/"
-  }
+}

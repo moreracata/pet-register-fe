@@ -1,5 +1,5 @@
 
-import CrazyButton from '../Utils/CrazyButton';
+import PinkBtn from '../Utils/PinkBtn/PinkBtn';
 import {IndexOptionDTO} from './Models/IndexOptionDTO';
 import { useHistory } from 'react-router-dom';
 
@@ -18,17 +18,16 @@ export default function IndexOption(props: indexOptionProps){
                 <span className="index-option-img"> 
                 <img src={props.option.image}/>
                 </span>
-                <CrazyButton 
+                <PinkBtn 
                     onClick={() => redirect(props.option.url)}
                     type="button">
                 {props.option.tag}
-                </CrazyButton>
+                </PinkBtn>
             </div>
         </div>
         </>
     )
 }
-
 
 interface indexOptionProps{
     option: IndexOptionDTO;

@@ -2,7 +2,6 @@
 import IndexOption from './IndexOption';
 import {IndexOptionDTO} from './Models/IndexOptionDTO';
 
-
 export default function MainOptions(){
     const options: IndexOptionDTO[] = [
         { id:1, image:  'https://cdn-icons-png.flaticon.com/512/4213/4213659.png', tag: 'PETS', url: '/Pet' }, 
@@ -12,12 +11,11 @@ export default function MainOptions(){
 
     return (
         <> 
-            <div className="row  form-container">  
-                <div className="row">   
-                    {options.map(option =>
-                        <IndexOption option={option} key={option.id} />)}
-                </div>  
-            </div>   
+            <div className="row">   
+                <IndexOption option={options[0]} key='1' />
+                <IndexOption option={options[1]} key='2' />
+                <IndexOption option={options[2]} key='3' />
+            </div>    
         </>
     )
 }

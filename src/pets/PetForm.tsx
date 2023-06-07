@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import TextField from '../forms/TextField';
 import DateField from '../forms/DateField';
 import ImageField from '../forms/ImageField';
-import CrazyButton from '../Utils/CrazyButton';
+import PinkBtn from '../Utils/PinkBtn/PinkBtn';
 import * as Yup from 'yup';
 import { petCreationDTO } from './Models/petDTO';
 
@@ -22,13 +22,11 @@ export default function PetForm(props: PetFormProps) {
                 <Form>
                    <TextField displayName="Name" field="name" />
                    <DateField displayName="Date of Birth" field="dateOfBirth" />
-                    <ImageField displayName="Picture" field="picture" 
-                    imageURL={props.model.pictureURL} />
+                    <ImageField displayName="Picture" field="picture"  imageURL={props.model.pictureURL} />
                     
-
-                   <CrazyButton type="submit">
+                   <PinkBtn type="submit">
                      SEND
-                  </CrazyButton>
+                  </PinkBtn>
                 </Form>
             )}
         </Formik>

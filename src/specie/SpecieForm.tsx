@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import TextField from '../forms/TextField';
 import DateField from '../forms/DateField';
 import ImageField from '../forms/ImageField';
-import CrazyButton from '../Utils/CrazyButton';
+import PinkBtn from '../Utils/PinkBtn/PinkBtn';
 import * as Yup from 'yup';
 import { specieCreationDTO } from './Models/specie.model';
 
@@ -20,9 +20,9 @@ export default function SpecieForm(props: SpecieFormProps) {
             {(formikProps) => (
                 <Form>
                    <TextField displayName="Name" field="name" />
-                   <CrazyButton type="submit">
+                   <PinkBtn type="submit">
                      SEND
-                  </CrazyButton>
+                  </PinkBtn>
                 </Form>
             )}
         </Formik>
