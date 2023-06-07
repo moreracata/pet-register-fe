@@ -1,4 +1,4 @@
-import './Main/Content.css';
+import './Main/Style/Content.css';
 import Menu from './Menu';
 import Content from './Main/Content';
 import Footer from './Main/Footer';

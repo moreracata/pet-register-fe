@@ -1,5 +1,5 @@
-import { ownerCreationDTO } from "./owner.model";
-import SpecieForm  from "./OwnerForm";
+import { ownerCreationDTO } from "./Models/OwnerDTO";
+import OwnerForm  from "./OwnerForm";
 
 export default function CreateOwner(){
     const model :ownerCreationDTO = 
@@ -13,7 +13,7 @@ export default function CreateOwner(){
         
         <div className="form-container"> 
             <h1>Owner Register </h1> 
-            <SpecieForm model={model}
+            <OwnerForm model={model}
                 onSubmit={values => console.log(values)}
             />
             </div>

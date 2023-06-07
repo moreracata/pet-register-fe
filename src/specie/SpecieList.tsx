@@ -1,5 +1,5 @@
-import { specieDTO } from "./specie.model.d";
-import List  from "../utils/List";
+import { specieDTO } from "./Models/specie.model";
+import List  from "../Utils/List";
 
 export default function SpecieList(){
     

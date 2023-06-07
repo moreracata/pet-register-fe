@@ -4,7 +4,7 @@ export interface petDTO {
     dateOfBirth?: Date;
     onwnerid: string;
     picture: string;
-    age: int
+    age: number
 }
 
 export interface petCreationDTO {
@@ -16,5 +16,4 @@ export interface petCreationDTO {
 
 export interface petListDTO {
     petList:petDTO[]
- 
 }

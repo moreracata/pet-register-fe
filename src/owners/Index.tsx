@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import IndexOption from '../utils/IndexOption';
-import { landingOptionDTO } from "../utils/utils.model";
+import IndexOption from '../Utils/IndexOption';
+import { landingOptionDTO } from "../Utils/utils.model";
 
 
 export default function IndexOwner(){

@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import TextField from '../forms/TextField';
 import DateField from '../forms/DateField';
 import ImageField from '../forms/ImageField';
-import CrazyButton from '../utils/CrazyButton';
+import CrazyButton from '../Utils/CrazyButton';
 import * as Yup from 'yup';
-import { petCreationDTO } from './pet.model.d';
+import { petCreationDTO } from './Models/petDTO';
 
 
 export default function PetForm(props: PetFormProps) {

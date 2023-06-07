@@ -1,15 +1,15 @@
-import { petDTO } from "./pet.model.d";
-import { ownerDTO } from "../owners/owner.model";
-import List  from "../utils/List";
+import { petDTO } from "./Models/petDTO";
+import { ownerDTO } from "../Owners/Models/OwnerDTO";
+import List  from "../Utils/List";
 
 export default function PetList(){
     
     const options: petDTO[] = [
-        { id:1, name: 'Mia', picture: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png' ,onwnerid:'1', age:'1'}, 
-        { id:2, name: 'Chuck', picture: 'https://cdn-icons-png.flaticon.com/512/4359/4359824.png' ,onwnerid:'2', age:'2'},
-        { id:3, name: 'Linda', picture: 'https://cdn-icons-png.flaticon.com/512/4359/4359824.png' ,onwnerid:'2', age:'3'},
-        { id:4, name: 'Luna', picture: 'https://cdn-icons-png.flaticon.com/512/4359/4359824.png' ,onwnerid:'2', age:'3'},
-        { id:5, name: 'Luna', picture: 'https://cdn-icons-png.flaticon.com/512/4359/4359824.png' ,onwnerid:'2', age:'4'},
+        { id:1, name: 'Mia', picture: 'https://cdn-icons-png.flaticon.com/512/4359/4359874.png' ,onwnerid:'1', age:1}, 
+        { id:2, name: 'Chuck', picture: 'https://cdn-icons-png.flaticon.com/512/4359/4359824.png' ,onwnerid:'2', age:2},
+        { id:3, name: 'Linda', picture: 'https://cdn-icons-png.flaticon.com/512/4359/4359824.png' ,onwnerid:'2', age:3},
+        { id:4, name: 'Luna', picture: 'https://cdn-icons-png.flaticon.com/512/4359/4359824.png' ,onwnerid:'2', age:3},
+        { id:5, name: 'Luna', picture: 'https://cdn-icons-png.flaticon.com/512/4359/4359824.png' ,onwnerid:'2', age:4},
     ]
 
 

@@ -1,4 +1,4 @@
-import { petCreationDTO } from "./pet.model.d";
+import { petCreationDTO } from "./Models/petDTO";
 import PetForm  from "./PetForm";
 
 export default function EditPet(){

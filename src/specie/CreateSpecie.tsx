@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
-import { specieCreationDTO } from "./specie.model";
+import { specieCreationDTO } from "./Models/specie.model";
 import SpecieForm  from "./SpecieForm";
 import { urlSpecies } from '../endpoints';
 

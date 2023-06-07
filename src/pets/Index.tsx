@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import IndexOption from '../utils/IndexOption';
-import {landingOptionDTO} from '../utils/utils.model';
+import IndexOption from '../Utils/IndexOption';
+import {landingOptionDTO} from '../Utils/utils.model';
 
 
-export default function MainOptions(){
+export default function IndexPets(){
     const options: landingOptionDTO[] = [
         { id:1, image:  'https://cdn-icons-png.flaticon.com/512/4213/4213659.png', tag: 'PETS', url: '/petList' }, 
         { id:2, image: 'https://cdn-icons-png.flaticon.com/512/4213/4213672.png', tag: 'OWNERS' , url: '/ownerList' }, 
@@ -13,7 +13,7 @@ export default function MainOptions(){
     return (
         <> 
         <div className="row  form-container">  
-     
+            <h1>Pets Options </h1>
             <div className="row">   
                 {options.map(option =>
                      <IndexOption option={option} key={option.id} />)}

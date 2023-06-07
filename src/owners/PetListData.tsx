@@ -1,4 +1,4 @@
-import Carousel  from "../Carousel/Carousel";
+import Carousel  from "../Utils/Carousel/Carousel";
 
 export default function PetListData(){
 

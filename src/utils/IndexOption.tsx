@@ -1,5 +1,5 @@
 
-import CrazyButton from '../utils/CrazyButton';
+import CrazyButton from './CrazyButton';
 import { landingOptionDTO } from "./utils.model";
 import { useHistory } from 'react-router-dom';
 

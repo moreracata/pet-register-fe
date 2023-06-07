@@ -1,4 +1,4 @@
-import MainOptions  from "./Main/MainOptions";
+import Index  from "./Main/Index";
 
 export default function LandingPage(){
 
@@ -7,7 +7,7 @@ export default function LandingPage(){
         
         <div className="form-container"> 
             <h1>PET REGISTER OPTIONS</h1> 
-                <MainOptions/>
+                <Index/>
             </div>
         </>
 

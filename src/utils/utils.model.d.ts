@@ -11,7 +11,7 @@ export interface listObjectDTO {
     dateOfBirth?: Date;
     onwnerid: string;
     picture: string;
-    age: int
+    age: number
 }
 
 

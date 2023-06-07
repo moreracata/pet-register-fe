@@ -65,7 +65,7 @@
 
 
 #root{
-  background-image: url("../img/pets.png");
+  background-image: url("../../img/pets.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom;
@@ -107,7 +107,7 @@
   border-radius: 38px;
   color:#ef476f;
   border: 3px solid white;
-  background-image: url("../img/huellas-patron.png");
+  background-image: url("../../img/huellas-patron.png");
 }
 
 #root > .container  >  .custon-container:hover{
