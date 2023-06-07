@@ -4,9 +4,9 @@ import {IndexOptionDTO} from './Models/IndexOptionDTO';
 
 export default function MainOptions(){
     const options: IndexOptionDTO[] = [
-        { id:1, image:  'https://cdn-icons-png.flaticon.com/512/4213/4213659.png', tag: 'PETS', url: '/Pet' }, 
-        { id:2, image: 'https://cdn-icons-png.flaticon.com/512/4213/4213672.png', tag: 'OWNERS' , url: '/Owner' }, 
-        { id:3, image: 'https://cdn-icons-png.flaticon.com/512/4213/4213678.png', tag: 'SPECIES', url: '/Specie'  }
+        { id:1, image: 'https://cdn-icons-png.flaticon.com/512/3007/3007858.png', tag: 'PETS', url: '/Pet' }, 
+        { id:2, image: 'https://cdn-icons-png.flaticon.com/512/6381/6381452.png', tag: 'OWNERS' , url: '/Owner' }, 
+        { id:3, image: 'https://cdn-icons-png.flaticon.com/512/2259/2259486.png', tag: 'SPECIES', url: '/Specie'  }
     ]
 
     return (
