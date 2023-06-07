@@ -13,18 +13,21 @@ export default function IndexOption(props: indexOptionProps){
 
     return (
         <>
-        <div className="col"> 
-           <div className="index-option"> 
-                <span className="index-option-img"> 
-                <img src={props.option.image}/>
-                </span>
-                <PinkBtn 
-                    onClick={() => redirect(props.option.url)}
-                    type="button">
-                {props.option.tag}
-                </PinkBtn>
+            <div className="col index-option"> 
+                <div className="row justify-content-center index-option-img"> 
+             
+                        <img src={props.option.image}/>
+                  
+                </div>
+                <div className="row  justify-content-center">
+                    
+                    <PinkBtn 
+                        onClick={() => redirect(props.option.url)}
+                        type="button">
+                        {props.option.tag}
+                    </PinkBtn>
+                </div>
             </div>
-        </div>
         </>
     )
 }

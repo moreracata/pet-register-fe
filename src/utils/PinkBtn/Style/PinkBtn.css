@@ -13,7 +13,7 @@
     filter: url('#goo');
 }
 
-.crazy-button {
+.pink-button {
     display: inline-block;
     text-align: center;
     background: var(--color);
@@ -30,14 +30,14 @@
     font-size: 1rem;
 }
 
-.crazy-button:hover {
+.pink-button:hover {
   
     text-decoration: none;
     color: #ffc107
 }
 
-.crazy-button:before,
-.crazy-button:after {
+.pink-button:before,
+.pink-button:after {
     width: 4.4em;
     height: 2.95em;
     position: absolute;
@@ -50,18 +50,18 @@
     z-index: -1;
 }
 
-.crazy-button:before {
+.pink-button:before {
     top: -25%;
     left: 20%;
 }
 
-.crazy-button:after {
+.pink-button:after {
     bottom: -25%;
     right: 20%;
 }
 
-.crazy-button:hover:before,
-.crazy-button:hover:after {
+.pink-button:hover:before,
+.pink-button:hover:after {
     transform: none;
 }
 

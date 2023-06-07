@@ -107,33 +107,31 @@
   font-family: 'Stylish', sans-serif;
 }
 
-#root .index-option{
+#root .index-option {
   text-align: center;
+
 }
 
-#root .index-option-img > img{
-  text-align: center;
+#root .index-option-img{
+
   border-radius: 50%;
   border: 3px solid #ffc107;
   width: 50%;
+  min-height: 150px;
   background-color: #EF476F;
-  
+  float:none;margin:auto;
 }
 
-
-#root .index-option-img > img:hover{
+#root .index-option-img:hover{
   background-image: url("https://dl3.glitter-graphics.net/pub/3200/3200833q843ro9i6h.gif");
-  
-}
-
-
-#root .index-option-img > img:hover{
   background-color: #ffc107;
   border: 3px dotted #EF476F;
 }
 
-
-
+#root .index-option-img > img{
+  margin: auto;
+  width: 50%;
+}
 
 
 .fa-1x {

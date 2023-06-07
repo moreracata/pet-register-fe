@@ -4,7 +4,7 @@ export default function PinkBtn(props: PinkBtnProps){
     return (
     <>
     <div className="wrapper">
-            <button className="crazy-button" 
+            <button className="pink-button" 
                type={props.type} 
                onClick={props.onClick}
       
