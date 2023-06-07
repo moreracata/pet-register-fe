@@ -1,5 +1,7 @@
 import Carousel from "../Utils/Carousel/Carousel";
 import { CarouselOptionDTO } from "../Utils/Carousel/Models/CarouselOptionDTO"
+import PinkBtn from '../Utils/PinkBtn/PinkBtn';
+import '../Main/Style/Index.css';
 
 export default function IndexPets(){
   
@@ -24,16 +26,33 @@ export default function IndexPets(){
     return (
         <> 
             <h1>PET MENU</h1> 
-            <div className="row">   
-                <div className="col">   
+            <div className="row index-options">   
+                <div className="col left-options px-3">   
                    <Carousel options={options} />
                 </div> 
-                <div className="col">   
-                    
+                <div className="col right-options">   
+                    <div className="row justify-content-center">   
+                        <PinkBtn type="button">
+                            Register a Pet
+                        </PinkBtn>
+                    </div>
+                    <div className="row justify-content-center">   
+                        <PinkBtn type="button">
+                            Query by Pet list
+                        </PinkBtn>
+                    </div>
+                    <div className="row justify-content-center">   
+                        <PinkBtn type="button">
+                            Option
+                        </PinkBtn>
+                    </div>
+                    <div className="row justify-content-center">   
+                        <PinkBtn type="button">
+                            Option
+                        </PinkBtn>
+                    </div>
                 </div> 
-            </div>    
-            
-       
+            </div>           
         </>
     )
 }
