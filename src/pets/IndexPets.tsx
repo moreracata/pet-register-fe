@@ -38,24 +38,28 @@ export default function IndexPets(){
                 </div> 
                 <div className="col right-options">   
                     <div className="row justify-content-center">   
-                        <PinkBtn type="button">
-                        onClick={() => redirect('')}
-                            Register a Pet
+                        <PinkBtn type="button"
+                            onClick={() => redirect('/PetCreation')}>
+                            {'Register a Pet'}
+                        </PinkBtn>
+                        
+                    </div>
+                    <div className="row justify-content-center">   
+                        <PinkBtn type="button"
+                            onClick={() => redirect('/PetList')}>
+                            {'List of Pets'}
                         </PinkBtn>
                     </div>
                     <div className="row justify-content-center">   
-                        <PinkBtn type="button">
-                            Query by Pet list
+                        <PinkBtn type="button"
+                            onClick={() => redirect('/PetList')}>
+                            {'Pet information'}
                         </PinkBtn>
                     </div>
                     <div className="row justify-content-center">   
-                        <PinkBtn type="button">
-                            Option
-                        </PinkBtn>
-                    </div>
-                    <div className="row justify-content-center">   
-                        <PinkBtn type="button">
-                            Option
+                       <PinkBtn type="button"
+                            onClick={() => redirect('/PetList')}>
+                            {'Pet information editon'}
                         </PinkBtn>
                     </div>
                 </div> 
