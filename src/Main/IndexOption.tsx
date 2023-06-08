@@ -15,12 +15,9 @@ export default function IndexOption(props: indexOptionProps){
         <>
             <div className="col index-option"> 
                 <div className="row justify-content-center index-option-img"> 
-             
-                        <img src={props.option.image}/>
-                  
+                    <img src={props.option.image}/>                 
                 </div>
-                <div className="row  justify-content-center">
-                    
+                <div className="row justify-content-center">
                     <PinkBtn 
                         onClick={() => redirect(props.option.url)}
                         type="button">

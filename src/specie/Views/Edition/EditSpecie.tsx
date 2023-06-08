@@ -1,11 +1,11 @@
 import axios from 'axios';
 import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
-import { specieCreationDTO } from "./Models/specie.model";
-import SpecieForm  from "./SpecieForm";
-import { urlSpecies } from '../endpoints';
+import { specieCreationDTO } from "../../Models/specie.model";
+import SpecieForm  from "../../SpecieForm";
+import { urlSpecies } from '../../../endpoints';
 
-export default function CreateSpecie(){
+export default function EditSpecie(){
     const model :specieCreationDTO = 
         { name:'', description: '', details: ' ', picture: ' ' }
 

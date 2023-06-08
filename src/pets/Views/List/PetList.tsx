@@ -1,6 +1,6 @@
-import { petDTO } from "./Models/petDTO";
-import { ownerDTO } from "../Owners/Models/OwnerDTO";
-import List  from "../Utils/List";
+import { petDTO } from "../../Models/petDTO";
+import { ownerDTO } from "../../../Owners/Models/OwnerDTO";
+import List  from "../../../Utils/List";
 
 export default function PetList(){
     

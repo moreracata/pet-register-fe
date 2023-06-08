@@ -1,5 +1,5 @@
-import { ownerCreationDTO } from "./Models/OwnerDTO";
-import OwnerForm  from "./OwnerForm";
+import { ownerCreationDTO } from "../../Models/OwnerDTO";
+import OwnerForm  from "../../OwnerForm";
 
 export default function CreateOwner(){
     const model :ownerCreationDTO = 

@@ -2,6 +2,7 @@ import Carousel from "../Utils/Carousel/Carousel";
 import { CarouselOptionDTO } from "../Utils/Carousel/Models/CarouselOptionDTO"
 import PinkBtn from '../Utils/PinkBtn/PinkBtn';
 import '../Main/Style/Index.css';
+import { useHistory } from 'react-router-dom';
 
 export default function IndexPets(){
   
@@ -22,6 +23,11 @@ export default function IndexPets(){
         
     ]
 
+    const history = useHistory();
+
+    function redirect(url:string) {
+        history.push(url)
+    }
 
     return (
         <> 
@@ -33,6 +39,7 @@ export default function IndexPets(){
                 <div className="col right-options">   
                     <div className="row justify-content-center">   
                         <PinkBtn type="button">
+                        onClick={() => redirect('')}
                             Register a Pet
                         </PinkBtn>
                     </div>

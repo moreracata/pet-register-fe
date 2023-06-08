@@ -1,5 +1,5 @@
-import { petCreationDTO } from "./Models/petDTO";
-import PetForm  from "./PetForm";
+import { petCreationDTO } from "../../Models/petDTO";
+import PetForm  from "../../PetForm";
 
 export default function EditPet(){
     const model :petCreationDTO = 
